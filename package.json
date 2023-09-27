@@ -1,0 +1,23 @@
+{
+  "name": "jest-getting-started",
+  "version": "1.0.0",
+  "description": "a repository create for practical examples and implementation of unit testing using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsonasefa/jest-getting-started.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samsonasefa/jest-getting-started/issues"
+  },
+  "homepage": "https://github.com/samsonasefa/jest-getting-started#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
