@@ -19,5 +19,8 @@
   "homepage": "https://github.com/samsonasefa/jest-getting-started#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
   }
 }
