@@ -4,7 +4,8 @@
   "description": "a repository create for practical examples and implementation of unit testing using jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "jest --watchAll"
   },
   "repository": {
     "type": "git",

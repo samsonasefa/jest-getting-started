@@ -137,3 +137,30 @@ test('the fetchData fails with an error', async () => {
     expect(e).toMatch('error');
   }
 });
+
+// beforeEach and afterEach
+
+// beforeEach(() => initDB());
+// afterEach(() => closeDB());
+
+// beforeAll(() => initDB());
+// afterAll(() => closeDB());
+
+// const initDB = () => console.log('Database Initialized...');
+// const closeDB = () => console.log('Database Closed...');
+
+const nameCheck = () => console.log('Checking Name....');
+
+describe('Checking names', () => {
+  beforeEach(() => nameCheck());
+
+  test('User is Jeff', () => {
+    const user = 'Jeff';
+    expect(user).toBe('Jeff');
+  });
+
+  test('User is Karen', () => {
+    const user = 'Karen';
+    expect(user).toBe('Karen');
+  });
+});
